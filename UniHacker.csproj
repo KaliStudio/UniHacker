@@ -73,12 +73,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Language_English.Designer.cs</LastGenOutput>
     </AvaloniaResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Assets\Language_English.Designer.cs">
+    <AvaloniaResource Update="Assets\Language_French.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Language_English.resx</DependentUpon>
-    </Compile>
+      <DependentUpon>Language_French.resx</DependentUpon>
+    </AvaloniaResource>
+    <AvaloniaResource Update="Assets\Language_French.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language_French.Designer.cs</LastGenOutput>
+    </AvaloniaResource>
   </ItemGroup>
 </Project>
