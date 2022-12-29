@@ -22,6 +22,11 @@ namespace UniHacker
                 culture = new CultureInfo("zh-CN");
                 languageFileName = Chinese;
             }
+            else if (language == "fr-FR")
+            {
+                culture = new CultureInfo("fr-FR");
+                languageFileName = French;
+            }
             else
             {
                 culture = new CultureInfo("en-US");
